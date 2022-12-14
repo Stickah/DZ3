@@ -1,0 +1,15 @@
+﻿Console.WriteLine("Введите координату X первой точки");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Y первой точки");
+int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Z первой точки");
+int c = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату X второй точки");
+int d = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Y второй точки");
+int e = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Z второй точки");
+int f = Convert.ToInt32(Console.ReadLine());
+double promez = Math.Sqrt(Math.Pow(d-a,2)+Math.Pow(e-b,2)+Math.Pow(f-c,2));
+double result = Math.Round(promez,2);
+Console.WriteLine(result);
